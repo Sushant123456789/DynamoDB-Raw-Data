@@ -1,0 +1,232 @@
+{
+    "InventoryCatalog": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "301"
+                    },
+                    "Name": {
+                        "S": "Laptop Pro 301"
+                    },
+                    "Model": {
+                        "S": "LP-301"
+                    },
+                    "Manufacturers": {
+                        "L": [
+                            {
+                                "S": "TechBrand A"
+                            }
+                        ]
+                    },
+                    "Price": {
+                        "N": "75000"
+                    },
+                    "Specifications": {
+                        "S": "15.6 inch, 16GB RAM, 512GB SSD"
+                    },
+                    "StockCount": {
+                        "N": "25"
+                    },
+                    "Available": {
+                        "BOOL": true
+                    },
+                    "ProductCategory": {
+                        "S": "Laptop"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "302"
+                    },
+                    "Name": {
+                        "S": "Laptop Air 302"
+                    },
+                    "Model": {
+                        "S": "LA-302"
+                    },
+                    "Manufacturers": {
+                        "L": [
+                            {
+                                "S": "TechBrand A"
+                            },
+                            {
+                                "S": "TechBrand B"
+                            }
+                        ]
+                    },
+                    "Price": {
+                        "N": "62000"
+                    },
+                    "Specifications": {
+                        "S": "14 inch, 8GB RAM, 512GB SSD"
+                    },
+                    "StockCount": {
+                        "N": "40"
+                    },
+                    "Available": {
+                        "BOOL": true
+                    },
+                    "ProductCategory": {
+                        "S": "Laptop"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "303"
+                    },
+                    "Name": {
+                        "S": "Laptop Ultra 303"
+                    },
+                    "Model": {
+                        "S": "LU-303"
+                    },
+                    "Manufacturers": {
+                        "L": [
+                            {
+                                "S": "TechBrand B"
+                            },
+                            {
+                                "S": "TechBrand C"
+                            }
+                        ]
+                    },
+                    "Price": {
+                        "N": "95000"
+                    },
+                    "Specifications": {
+                        "S": "16 inch, 32GB RAM, 1TB SSD"
+                    },
+                    "StockCount": {
+                        "N": "12"
+                    },
+                    "Available": {
+                        "BOOL": false
+                    },
+                    "ProductCategory": {
+                        "S": "Laptop"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "401"
+                    },
+                    "Name": {
+                        "S": "Smartphone X 401"
+                    },
+                    "Description": {
+                        "S": "5G Android smartphone with AMOLED display"
+                    },
+                    "DeviceType": {
+                        "S": "Smartphone"
+                    },
+                    "Brand": {
+                        "S": "MobileBrand A"
+                    },
+                    "Price": {
+                        "N": "28000"
+                    },
+                    "Colors": {
+                        "L": [
+                            {
+                                "S": "Blue"
+                            },
+                            {
+                                "S": "Black"
+                            }
+                        ]
+                    },
+                    "ProductCategory": {
+                        "S": "Mobile"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "402"
+                    },
+                    "Name": {
+                        "S": "Smartphone Pro 402"
+                    },
+                    "Description": {
+                        "S": "Premium smartphone with advanced camera"
+                    },
+                    "DeviceType": {
+                        "S": "Smartphone"
+                    },
+                    "Brand": {
+                        "S": "MobileBrand B"
+                    },
+                    "Price": {
+                        "N": "45000"
+                    },
+                    "Colors": {
+                        "L": [
+                            {
+                                "S": "Green"
+                            },
+                            {
+                                "S": "Black"
+                            },
+                            {
+                                "S": "White"
+                            }
+                        ]
+                    },
+                    "ProductCategory": {
+                        "S": "Mobile"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "403"
+                    },
+                    "Name": {
+                        "S": "Smartphone Lite 403"
+                    },
+                    "Description": {
+                        "S": "Budget-friendly smartphone for daily use"
+                    },
+                    "DeviceType": {
+                        "S": "Smartphone"
+                    },
+                    "Brand": {
+                        "S": "MobileBrand C"
+                    },
+                    "Price": {
+                        "N": "15000"
+                    },
+                    "Colors": {
+                        "L": [
+                            {
+                                "S": "Red"
+                            }
+                        ]
+                    },
+                    "ProductCategory": {
+                        "S": "Mobile"
+                    }
+                }
+            }
+        }
+    ]
+}

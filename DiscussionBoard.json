@@ -1,0 +1,67 @@
+{
+    "DiscussionBoard": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "Topic": {
+                        "S": "Python Programming"
+                    },
+                    "Category": {
+                        "S": "Programming"
+                    },
+                    "Threads": {
+                        "N": "5"
+                    },
+                    "Messages": {
+                        "N": "18"
+                    },
+                    "Views": {
+                        "N": "2450"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Topic": {
+                        "S": "AWS Cloud Computing"
+                    },
+                    "Category": {
+                        "S": "Cloud Computing"
+                    },
+                    "Threads": {
+                        "N": "8"
+                    },
+                    "Messages": {
+                        "N": "31"
+                    },
+                    "Views": {
+                        "N": "5200"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Topic": {
+                        "S": "React JS"
+                    },
+                    "Category": {
+                        "S": "Web Development"
+                    },
+                    "Threads": {
+                        "N": "4"
+                    },
+                    "Messages": {
+                        "N": "12"
+                    },
+                    "Views": {
+                        "N": "1800"
+                    }
+                }
+            }
+        }
+    ]
+}
